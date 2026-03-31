@@ -1,0 +1,23 @@
+.part-no {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.no-value { color: var(--border2); }
+
+.qty-ok  { color: var(--success); font-weight: 600; }
+.qty-low { color: var(--warn);    font-weight: 600; }
+.qty-out { color: var(--error);   font-weight: 600; }
+
+.qty-tag {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  vertical-align: middle;
+  background: rgba(255,255,255,0.08);
+  letter-spacing: 0.05em;
+}
